@@ -55,6 +55,7 @@ Por detras utiliza Felxbox y es 100% responsive
  </div>
   ```
   <h3>Explicación</h3>
+  
   - El contenedor provee una forma de centrar el contenidode la pagina
   - las filas continen columnas
   - Las columnas tienen un <b>padding</b> hotizontal (gutter) para controlar el espaciado entre ellas
