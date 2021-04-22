@@ -67,8 +67,9 @@ Por detras utiliza Felxbox y es 100% responsive
   - El temaño de las columnas determina cuántas columnas tendremos
   - Si queremos tres columnas: <b>.col-4 .col-4 .col-4</b>
   
-
-
+  <h3>Documentacion</h3>
+  
+ [Boostrap](#https://getbootstrap.com/docs/4.1/layout/grid/)
 
 
 
