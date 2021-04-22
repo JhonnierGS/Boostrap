@@ -94,8 +94,27 @@ Barra de navegación
      <!--Navbar Content-->
   </div>
   ```
+ # Carousel
+ Un carrusel de imagenes
  
-
+ ```HTML
+   <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+  </div>
+</div>
+  ```
+  - Hay que agregar la clase <b>.active</b> a algunos slides 
+  - Asegurarse que los controles e indicadores tengan un atributo elemnts <b>data-target</b> que coincidad con el id del elemento <b>.coarousel</b>
+  
 
 
 
