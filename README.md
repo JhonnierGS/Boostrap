@@ -69,10 +69,31 @@ Por detras utiliza Felxbox y es 100% responsive
   
   <h3>Documentacion</h3>
   
- [Boostrap](#https://getbootstrap.com/docs/4.1/layout/grid/)
+   [Boostrap](https://getbootstrap.com/docs/4.1/layout/grid/)
 
+# Navbar
+Barra de navegación
 
-
+ <h3>¿Qué colocar dentro de un Navbar?</h3>
+ - <b>.navbar-brand<b> para el nombre de tú compañia.
+ - <b>.navbar-nav<b> para un menú de navegación (que puede tener submenúes).
+ - <b>.navbar-toggler<b> para usar con el plugin para colapsar contenido.
+ - <b>.form-inline<b> para incluir formularios.
+ - <b>.navbar-text<b> para incuilr texto centrado vertical mente.
+ - <b>.collapse .navbar-collapse<b> para agrupar contenido que se va a colapsar.
+ 
+ ```HTML
+  <div class="navbar navbar-dark bg-dark">
+     <!--Navbar Content-->
+  </div>
+ <div class="navbar navbar-dark bg-primary">
+     <!--Navbar Content-->
+  </div>
+ <div class="navbar navbar-light" style="background-color: #e3f2fd">
+     <!--Navbar Content-->
+  </div>
+  ```
+ 
 
 
 
