@@ -67,12 +67,54 @@ Por detras utiliza Felxbox y es 100% responsive
   - El temaño de las columnas determina cuántas columnas tendremos
   - Si queremos tres columnas: <b>.col-4 .col-4 .col-4</b>
   
+  <h3>Documentacion</h3>
+  
+   [Boostrap](https://getbootstrap.com/docs/4.1/layout/grid/)
 
+# Navbar
+Barra de navegación
 
+ <h3>¿Qué colocar dentro de un Navbar?</h3>
 
-
-
-
+ - <b>.navbar-brand<b>: para el nombre de tú compañia.
+ - <b>.navbar-nav<b>: para un menú de navegación (que puede tener submenúes).
+ - <b>.navbar-toggler<b>: para usar con el plugin para colapsar contenido.
+ - <b>.form-inline<b>: para incluir formularios.
+ - <b>.navbar-text<b>: para incuilr texto centrado vertical mente.
+ - <b>.collapse .navbar-collapse<b>: para agrupar contenido que se va a colapsar.
+ 
+ ```HTML
+  <div class="navbar navbar-dark bg-dark">
+     <!--Navbar Content-->
+  </div>
+ <div class="navbar navbar-dark bg-primary">
+     <!--Navbar Content-->
+  </div>
+ <div class="navbar navbar-light" style="background-color: #e3f2fd">
+     <!--Navbar Content-->
+  </div>
+  ```
+ # Carousel
+ Un carrusel de imagenes
+ 
+ ```HTML
+   <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+  </div>
+</div>
+  ```
+  - Hay que agregar la clase <b>.active</b> a algunos slides 
+  - Asegurarse que los controles e indicadores tengan un atributo elemnts <b>data-target</b> que coincidad con el id del elemento <b>.coarousel</b>
+  
 
 
 
