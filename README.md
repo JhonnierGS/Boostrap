@@ -75,6 +75,7 @@ Por detras utiliza Felxbox y es 100% responsive
 Barra de navegación
 
  <h3>¿Qué colocar dentro de un Navbar?</h3>
+
  - <b>.navbar-brand<b> para el nombre de tú compañia.
  - <b>.navbar-nav<b> para un menú de navegación (que puede tener submenúes).
  - <b>.navbar-toggler<b> para usar con el plugin para colapsar contenido.
