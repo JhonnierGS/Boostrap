@@ -115,8 +115,10 @@ Barra de navegación
   - Hay que agregar la clase <b>.active</b> a algunos slides 
   - Asegurarse que los controles e indicadores tengan un atributo elemnts <b>data-target</b> que coincidad con el id del elemento <b>.coarousel</b>
   
+  # Card
+  Un contenedor felxible con múltiples variantes y opciones 
 
-
+  
 
 
 
