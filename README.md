@@ -1,5 +1,5 @@
-# Boostrap
-Proyecto practico en boostrap
+# Bootstrap
+Proyecto practico en bootstrap
 
 # ¿Qué es un Framework Front-End?
  - También conocidos como Frameworks CSS
