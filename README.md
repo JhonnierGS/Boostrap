@@ -138,14 +138,14 @@ Para contadores y pequeñas etiquetas
 <h4>Example heading <sapn class="badge badge-sacondary">New</sapn></h4>
 <h5>Example heading <sapn class="badge badge-sacondary">New</sapn></h5>
   ```
-<h3>Desntro de botones</h3>
+<h3>Dentro de botones</h3>
   
   ```HTML
  <button tyoe="button" class="btn tbn-primary">
    Notification <span class="badge badge.light">4</span>
  </button>
   ```
-<h3>Desntro de botones</h3>
+<h3>Variaciones de contexto</h3>
 
  ```HTML
 <span class="badge badge-primary">Primary</span>
@@ -158,7 +158,7 @@ Para contadores y pequeñas etiquetas
 <span class="badge badge-dark">Dark</span>
   ```
   
- <h3>Desntro de botones</h3>
+ <h3>Pildoras</h3>
   
    ```HTML
 <span class="badge badge-pill badge-primary">Primary</span>
