@@ -128,8 +128,65 @@ Barra de navegación
   </div>
 </div>
   ```
+# Etiquetas
+Para contadores y pequeñas etiquetas
+   
+   ```HTML
+<h1>Example heading <sapn class="badge badge-sacondary">New</sapn></h1>
+<h2>Example heading <sapn class="badge badge-sacondary">New</sapn></h2>
+<h3>Example heading <sapn class="badge badge-sacondary">New</sapn></h3>
+<h4>Example heading <sapn class="badge badge-sacondary">New</sapn></h4>
+<h5>Example heading <sapn class="badge badge-sacondary">New</sapn></h5>
+  ```
+<h3>Desntro de botones</h3>
   
+  ```HTML
+ <button tyoe="button" class="btn tbn-primary">
+   Notification <span class="badge badge.light">4</span>
+ </button>
+  ```
+<h3>Desntro de botones</h3>
 
-
-
-
+ ```HTML
+<span class="badge badge-primary">Primary</span>
+<span class="badge badge-secondary">Secondary</span>
+<span class="badge badge-success">Success</span>
+<span class="badge badge-danger">Danger</span>
+<span class="badge badge-warning">Warning</span>
+<span class="badge badge-info">Info</span>
+<span class="badge badge-light">Light</span>
+<span class="badge badge-dark">Dark</span>
+  ```
+  
+ <h3>Desntro de botones</h3>
+  
+   ```HTML
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+  ```
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
