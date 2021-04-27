@@ -1,19 +1,19 @@
 .text-platzi{
-    color: #97c93e !important;
+    color: #ff6e18 !important;
 }
 
 .btn-platzi{
-    background-color: #97c93e;
+    background-color: #ff6e18;
     color: white;
 }
 
 .btn-platzi:hover{
-    background-color: #82ad36;
+    background-color: #e05606;
     color: white;
 }
 
 #header img{
-    width: 80px;
+    width: 150px;
 }
 
 
@@ -44,11 +44,20 @@
     height: 100%;
 }
 
+.icon img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
 
+/* etiquetas */
+#place-time{
+    background-color: #343a40;
+    color: white;
+}
 
-
-#footer{
-    background: linear-gradient(90deg, #1c3643,#273b47 25%, #1e5372);
+#place-time img{
+    width: 100%;
 }
 
 #footer a{
