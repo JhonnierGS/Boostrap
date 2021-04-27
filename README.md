@@ -170,7 +170,7 @@ Para contadores y pequeñas etiquetas
 <span class="badge badge-pill badge-light">Light</span>
 <span class="badge badge-pill badge-dark">Dark</span>
   ```
-#Formularios
+# Formularios
 Estilos para controles, opciones de layout y componentes personalizados
   
   <h3>controles</h3>
@@ -217,7 +217,7 @@ Estilos para controles, opciones de layout y componentes personalizados
             </div>
         </section>
   ```
-#Scrollspy
+# Scrollspy
 Automáticamente actualiza la navegación de Bootstrap con base en la posición del sroll para iniciar qué link esta activo en el viewport
   
   
