@@ -170,10 +170,55 @@ Para contadores y pequeñas etiquetas
 <span class="badge badge-pill badge-light">Light</span>
 <span class="badge badge-pill badge-dark">Dark</span>
   ```
+#Formularios
+Estilos para controles, opciones de layout y componentes personalizados
   
+  <h3>controles</h3>
   
-  
-  
+   ```HTML
+ <section id="conviertete-en-orador" class="pt-4 pb-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-uppercase text-center">
+                        <small>Conviertete en un</small>
+                        <h2>ORADOR</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col text-center">
+                        Anótate para dar una charla ignite. ¡Cuéntanos de que quieres hablar!
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 pt-2">
+                        <div class="row">
+                            <div class="form-label col-12 col-md-6">
+                                <input type="text" class="form-control" placeholder="First name" aria-label="Nombre">
+                            </div>
+                            <div class="form-label col-12 col-md-6">
+                                <input type="text" class="form-control" placeholder="Last name" aria-label="Apellido">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-label col">
+                                <textarea name="text" class="form-control form-control-lg" placeholder="¿Sobre quá quieres hablar?"></textarea>
+                                <small class="form-text text-muted">
+                                    Recuerda incluir un título para tú charla
+                                </small>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button type="button" class="btn btn-platzi col-12">Enviar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+  ```
+#Scrollspy
+Automáticamente actualiza la navegación de Bootstrap con base en la posición del sroll para iniciar qué link esta activo en el viewport
   
   
   
