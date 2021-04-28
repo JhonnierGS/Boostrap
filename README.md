@@ -1,5 +1,21 @@
 # Bootstrap
-Proyecto practico en bootstrap
+Proyecto practico en bootstrap. Conferencia de dragon ball realizada en HMTL, CSS, JS y Bootstrap 
+abajo puedes ver todos los diseños usados 👇
+
+# Tabla de contenido
+
+  1. [¿Qué es un Framework Front-End?](#¿Qué-es-un-Framework-Front-End?)
+  2. [Containers](#Containers)
+  3. [The Grid](#The-Grid)
+  4. [Navbar](#Navbar)
+  5. [Carousel](#Carousel)
+  6. [Card](#Card)
+  7. [Etiquetas](#Etiquetas)
+  8. [Formularios](#Formularios)
+  9. [Scrollspy](#Scrollspy)
+  10. [Modal](#Modal)
+  11. [avegadores y dispositivos](#avegadores-y-dispositivos)
+
 
 # ¿Qué es un Framework Front-End?
  - También conocidos como Frameworks CSS
