@@ -1,4 +1,4 @@
-# Bootstrap
+# Bootstrap ball
 Proyecto practico en bootstrap. Conferencia de dragon ball realizada en HMTL, CSS, JS y Bootstrap 
 
 abajo puedes ver todos los diseños usados con bootstrap 👇
