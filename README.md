@@ -220,10 +220,26 @@ Estilos para controles, opciones de layout y componentes personalizados
 # Scrollspy
 Automáticamente actualiza la navegación de Bootstrap con base en la posición del sroll para iniciar qué link esta activo en el viewport
   
+  <h3>Requerimentos<h3>
   
+- Se tiene que usar en un .nav o un .item-list
+- Scrollspy requiere que el elemento donde se controlará el sroll tenga <b>Position: relative;</b> (generalmente el body)
+- Si se usa sobre otro elemneto que no sea el <body, asegúrate de que tenga un <b>height fijo</b> y <b>overflow-y: scroll</b>
+- Se requieren anclas (<a>) y deben navegar hacia un elemento con ese <b>id</b>
   
-  
-  
+# Modal
+Usa este componente para mostrar ventanas emergnentes dentro de tu sitio con notificaciones para usuarios, fotos o el contenido que quieras
+
+- Continen HTML, CSS y JavaScript
+- Están posicionados sobre tod o lo demás que esta en la pagina
+- Bloquean el scroll en el body (excepto en móviles)
+- Si haces click en el fondo, se cierra
+- Sólo un modal a la vez
+- No ubicarlo dentro de otros elementos 
+
+# Navegadores y dispositivos
+
+[Soporte](https://getbootstrap.com/docs/4.1/getting-started/browsers-devices/)
   
   
   
