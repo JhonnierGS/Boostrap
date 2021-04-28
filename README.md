@@ -222,10 +222,10 @@ Automáticamente actualiza la navegación de Bootstrap con base en la posición 
   
   <h3>Requerimentos<h3>
   
-  - Se tiene que usar en un .nav o un .item-list
-  - Scrollspy requiere que el elemento donde se controlará el sroll tenga <b>Position: relative;</b> (generalmente el body)
-  - Si se usa sobre otro elemneto que no sea el <body, asegúrate de que tenga un <b>height fijo</b> y <b>overflow-y: scroll</b>
-  - Se requieren anclas (<a>) y deben navegar hacia un elemento con ese <b>id</b>
+- Se tiene que usar en un .nav o un .item-list
+- Scrollspy requiere que el elemento donde se controlará el sroll tenga <b>Position: relative;</b> (generalmente el body)
+- Si se usa sobre otro elemneto que no sea el <body, asegúrate de que tenga un <b>height fijo</b> y <b>overflow-y: scroll</b>
+- Se requieren anclas (<a>) y deben navegar hacia un elemento con ese <b>id</b>
   
   
   
