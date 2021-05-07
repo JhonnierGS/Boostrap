@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/index.css">
+        <title>Hello, world!</title>
+    </head>
+    <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="75">
+        <!-- header -->
+    <header>
+        <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a  class="navbar-brand" href="#">
+                    <img src="images/platzi-logo.png" alt="Platzi logo">
+                    Conf Dragon 
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#main">Conferencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#speakers">Los oradores </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#place-time">El lugar y la fecha</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#conviertete-en-orador">Conviertete en orador</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-platzi" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">compra de tickets</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+            </nav>
+    </header>
+        <!-- header -->
+
+        <!-- main -->
+        <section id="main">
+            <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/hawaii.jpg" class="d-block w-100" alt="dragon ball">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/hawaii2.jpg" class="d-block w-100" alt="dragon ball">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/honolulu.jpg" class="d-block w-100" alt="dragon ball">
+                    </div>
+                </div>
+                <div class="overlay">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-md-6 offset-md-6 text-center text-md-end">
+                                <h1>Dragon Conf Latino America</h1>
+                                <p class="d-none d-md-block">Dragon conf llega por primera vez a Latino America! un evento 
+                                para compartir con nuestra comunidad el conocimiento y experiencia
+                                de los expertos que estan hablando de el futuro de dragon ball. 
+                                Ven a conocer a miembros del Team Dragon, a otros fanaticos de Dragon ball
+                                y a los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+                                <a href="#" class="btn btn-outline-light">Quiero ser orador</a>
+                                <button type="button" class="btn btn-platzi" data-bs-toggle="modal" data-bs-target="#exampleModal">Comprar tickets</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- main -->
+
+        <!-- speakers -->
+            <section id="speakers" class="mt-4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col text-center text-uppercase">
+                            <small>Conoce a los</small>
+                            <h2>Oradores</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                            <div class="card">
+                                <img src="images/broly.jpg" class="card-img-top" alt="foto de broly">
+                                <div class="card-body">
+                                    <div class="badges text-end">
+                                        <span class="badge bg-secondary">Saiyan</span>
+                                        <span class="badge bg-danger">100% Danger</span>
+                                    </div>
+                                    <h5 class="card-title">Broly</h5>
+                                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima expedita ad perspiciatis ex explicabo, sequi id repellendus corrupti animi adipisci!</p>
+                                    <div class="icon">
+                                        <img src="https://img.icons8.com/dusk/452/son-goku.png" alt="icono dragon">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSIqGJGiAASJg6zi8m60k-5fraHrOkpr6VnUq5idbDinqaPyV_6eH8dvF59_XcGw04PAs&usqp=CAU" alt="icono dragon">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                            <div class="card">
+                                <img src="images/bardock.jpg"  class="card-img-top" alt="foto de bardock">
+                                <div class="card-body">
+                                    <div class="badges text-end">
+                                        <span class="badge bg-secondary">Saiyan</span>
+                                        <span class="badge bg-warning">60% Danger</span>
+                                    </div>
+                                    <h5 class="card-title">Bardock</h5>
+                                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima expedita ad perspiciatis ex explicabo, sequi id repellendus corrupti animi adipisci!</p>
+                                    <div class="icon">
+                                        <img src="https://img.icons8.com/dusk/452/son-goku.png" alt="icono dragon">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSIqGJGiAASJg6zi8m60k-5fraHrOkpr6VnUq5idbDinqaPyV_6eH8dvF59_XcGw04PAs&usqp=CAU" alt="icono dragon">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                            <div class="card">
+                                <img src="images/numero17.jpg" class="card-img-top" alt="foto de numero 17">
+                                <div class="card-body">
+                                    <div class="badges text-end">
+                                        <span class="badge bg-success">Androide</span>
+                                        <span class="badge bg-warning">80% Danger</span>
+                                    </div>
+                                    <h5 class="card-title mb-0">Numero 17</h5>
+                                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima expedita ad perspiciatis ex explicabo, sequi id repellendus corrupti animi adipisci!</p>
+                                    <div class="icon">
+                                        <img src="https://img.icons8.com/dusk/452/son-goku.png" alt="icono dragon">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSIqGJGiAASJg6zi8m60k-5fraHrOkpr6VnUq5idbDinqaPyV_6eH8dvF59_XcGw04PAs&usqp=CAU" alt="icono dragon">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                            <div class="card">
+                                <img src="images/kid-boo.png"  class="card-img-top" alt="foto kid boo">
+                                <div class="card-body">
+                                    <div class="badges text-end">
+                                        <span class="badge" style="background-color: #ff5f86;">Boo's</span>
+                                        <span class="badge bg-danger">90% Danger</span>
+                                    </div>
+                                    <h5 class="card-title mb-0">Kid Boo</h5>
+                                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima expedita ad perspiciatis ex explicabo, sequi id repellendus corrupti animi adipisci!</p>
+                                    <div class="icon">
+                                        <img src="https://img.icons8.com/dusk/452/son-goku.png" alt="icono dragon">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSIqGJGiAASJg6zi8m60k-5fraHrOkpr6VnUq5idbDinqaPyV_6eH8dvF59_XcGw04PAs&usqp=CAU" alt="icono dragon">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- speakers -->
+        
+        <!-- lugar y fecha -->
+            <section id="place-time">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-lg-6  ps-0 pe-0">
+                            <img src="images/kame-house.jpg" alt="kame-house imagen">
+                        </div>
+                        <div class="col-12 col-lg-6 pt-4 pb-4 align-self-center">
+                            <h2>Kame House - Mayo 2021</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, fugiat. Sunt ad, inventore porro consequuntur accusamus labore distinctio officiis corrupti eius ullam cum nulla maxime commodi deserunt nihil quo tenetur quis ut? Officia voluptatibus veritatis modi facere animi, totam dignissimos.</p>
+                            <a href="https://es.wikipedia.org/wiki/Anexo:Lugares_de_Dragon_Ball" class="btn btn-outline-light">Conoce más</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- lugar y fecha -->
+
+        <!-- Conviertete en orador -->
+        <section id="conviertete-en-orador" class="pt-4 pb-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-uppercase text-center">
+                        <small>Conviertete en un</small>
+                        <h2>ORADOR</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col text-center">
+                        Anótate para dar una <abbr data-bs-toggle="tooltip" title="charlas de 5 minutos" style="text-decoration: none;">charla ignite.</abbr> ¡Cuéntanos de que quieres hablar!
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 pt-2">
+                        <div class="row">
+                            <div class="form-label col-12 col-md-6">
+                                <input type="text" class="form-control" placeholder="First name" aria-label="Nombre">
+                            </div>
+                            <div class="form-label col-12 col-md-6">
+                                <input type="text" class="form-control" placeholder="Last name" aria-label="Apellido">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-label col">
+                                <textarea name="text" class="form-control form-control-lg" placeholder="¿Sobre quá quieres hablar?"></textarea>
+                                <small class="form-text text-muted">
+                                    Recuerda incluir un título para tú charla
+                                </small>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button type="button" class="btn btn-platzi col-12">Enviar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Conviertete en orador -->
+
+        <!-- footer -->
+        <footer id="footer" class="pb-4 pt-4 bg-dark">
+            <div class="container ">
+                <div class="row text-center">
+                    <div class="col-12 col-lg">
+                        <a href="">Preguntas frecuentes</a>
+                    </div>
+                    <div class="col-12 col-lg">
+                        <a href="">Contáctanos</a>
+                    </div>
+                    <div class="col-12 col-lg">
+                        <a href="">Prensa</a>
+                    </div>
+                    <div class="col-12 col-lg">
+                        <a href="">Conferencia</a>
+                    </div>
+                    <div class="col-12 col-lg">
+                        <a href="">Términos y condiciones</a>
+                    </div>
+                    <div class="col-12 col-lg">
+                        <a href="">Privacidad</a>
+                    </div>
+                    <div class="col-12 col-lg">
+                        <a href="">Estudiantes</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Comprar tickets</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="row">
+                            <div class="col">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text" id="basic-addon1">@</span>
+                                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="alert alert-warning" role="alert">
+                        Recibiras un correo de confirmación si sales sorteado
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-platzi">Comprar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+        -->
+        <script src="js/index.js"></script>
+    </body>
+</html>
