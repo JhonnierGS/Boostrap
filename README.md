@@ -254,7 +254,7 @@ Usa este componente para mostrar ventanas emergnentes dentro de tu sitio con not
 - Sólo un modal a la vez
 - No ubicarlo dentro de otros elementos 
 
-# Navegadores y dispositivos
+# Navegadores-y-dispositivos
 
 [Soporte](https://getbootstrap.com/docs/4.1/getting-started/browsers-devices/)
   
