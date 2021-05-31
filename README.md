@@ -18,7 +18,7 @@ abajo puedes ver todos los diseños usados con bootstrap 👇
   11. [navegadores y dispositivos](#navegadores-y-dispositivos)
 
 
-# ¿Qué-es-un-Framework-Front-End?
+# ¿Qué es un Framework Front-End?
  - También conocidos como Frameworks CSS
  - Son una base para empezar un proyecto web permitiendo flexibilidad en el diseño
  - Organización y estructura de nuestro HTML, CSS y JavaScript
