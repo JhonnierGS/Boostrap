@@ -15,7 +15,7 @@ abajo puedes ver todos los diseños usados con bootstrap 👇
   8. [Formularios](#Formularios)
   9. [Scrollspy](#Scrollspy)
   10. [Modal](#Modal)
-  11. [navegadores y dispositivos](#avegadoresYDispositivos)
+  11. [navegadores y dispositivos](#navegadores-y-dispositivos)
 
 
 # ¿Qué-es-un-Framework-Front-End?
