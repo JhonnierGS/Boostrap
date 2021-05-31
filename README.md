@@ -5,7 +5,7 @@ abajo puedes ver todos los diseños usados con bootstrap 👇
 
 # Tabla de contenido
 
-  1. [¿Qué es un Framework Front-End?](#¿QuéesunFrameworkFrontEnd?)
+  1. [¿Qué es un FrameworkFront-End?](#¿Qué es un Framework Front-End?)
   2. [Containers](#Containers)
   3. [The Grid](#The-Grid)
   4. [Navbar](#Navbar)
